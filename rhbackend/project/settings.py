@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # local apps
+    'candidate.apps.CandidateConfig',
     # third-party libs
     "graphene_django",
 ]
